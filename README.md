@@ -22,6 +22,7 @@ To lay the foundation for this ambitious undertaking, I aim to construct a dashb
 
 ## Data Overview
 - **Orders CSV Dataset**<br>
+  - The "**Orders CSV**" dataset provides valuable insights into the ordering process of a retail company. It includes information related to customer orders, such as **order ID**, **order date**, **customer name**, **state**, and **city**. This dataset is a key resource for analyzing customer behavior, geographical distribution, and order history.
 
 | **Column**            | **Description**                                            |
 |-----------------------|------------------------------------------------------------|
@@ -31,7 +32,18 @@ To lay the foundation for this ambitious undertaking, I aim to construct a dashb
 | State                 | The state in which the customer resides.                   |
 | City                  | The city where the customer is located.                   |
 
-- 
+- **Details CSV Dataset**<br>
+  - The _"Details CSV"_ dataset complements the _"Orders CSV"_ dataset by providing detailed information about the orders. It includes data on _order ID, amount, profit, quantity, category, sub-category,_ and _payment_ _mode_. This dataset is crucial for analyzing sales _performance, profitability, product categories,_ and _payment methods_.
+
+| **Column**            | **Description**                                            |
+|-----------------------|------------------------------------------------------------|
+| Order ID              | A unique identifier matching the order with the "Orders CSV" dataset. |
+| Amount                | The total amount of the order.                            |
+| Profit                | The profit generated from the order.                      |
+| Quantity              | The quantity of products ordered.                         |
+| Category              | The broad category to which the product belongs.          |
+| Sub-Category          | A more specific sub-category of the product.              |
+| Payment Mode          | The mode of payment used for the order.                   |
 
 ## Method
 - Exploratory data analysis _(EDA)_
